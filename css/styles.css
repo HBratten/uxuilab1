@@ -98,6 +98,10 @@ footer p {
     margin: 0px; 
 }
 
+.footernav {
+    display: none;
+}
+
 @media only screen and (min-width: 768px) {
     .dropdown {
         display: none;
@@ -105,20 +109,57 @@ footer p {
 
     header {
         align-items: center;
+        font-size: 30px;
     }
 
     .navbar {
         display: flex; 
         justify-content: flex-end; 
         flex: 1; 
+        margin: 10px;
     }
 
     .navbar p {
         padding-left: 20px; 
+        margin: 0px;
+        font-size: 22px;
     }
 
     .navbar a {
         color: rgb(232, 232, 232);
     }
 
+    main {
+       margin-top: 100px; 
+    }
+
+    h1 {
+        font-size: 28px; 
+    }
+
+    h2 {
+        margin-top: 100px; 
+        font-size: 26px;
+    }
+
+
+    .figures {
+        display: flex; 
+    }
+
+    .petimages {
+        font-size: 24px;
+    }
+    .footernav {
+        display: flex; 
+        justify-content: center; 
+    }
+
+    .footernav p {
+        padding: 20px;
+    }
+
+    .footernav a {
+        color: rgb(99, 99, 99);
+    }
 }
