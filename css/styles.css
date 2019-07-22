@@ -1,6 +1,6 @@
 /* Style Guide
 Font - Rubik
-Font Color - rgba(76, 137, 178, 0.7)
+Font Color - rgb(99, 99, 99)
 Nav Bar and Title Font Color - rgb(76, 137, 178)
 Background and Nav Bar Font Color - rgb(232, 232, 232)
 Logo - Pawprint.png
@@ -46,16 +46,19 @@ a {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
   z-index: 2;
   margin-top: 50px;
+  color: rgb(99, 99, 99);
 }
 
 .submit {
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
+
 
 button {
   background-color: rgb(76, 137, 178);
@@ -66,14 +69,27 @@ button {
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 20px;
+    color: rgb(99, 99, 99);
 }
 
 img {
-width: 50%;
+width: 66%;
 
 }
 
 .petimages {
     text-align: center;
+    color: rgb(99, 99, 99);
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(99, 99, 99);
+}
+
+footer p {
+    margin: 0px; 
 }
