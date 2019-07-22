@@ -1,7 +1,7 @@
 /* Style Guide
 Font - Rubik
 Font Color - rgb(99, 99, 99)
-Nav Bar and Title Font Color - rgb(76, 137, 178)
+Nav Bar - rgb(76, 137, 178)
 Background and Nav Bar Font Color - rgb(232, 232, 232)
 Logo - Pawprint.png
 Pet 1 - dog.jpg
@@ -43,6 +43,10 @@ a {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.navbar {
+    display: none; 
 }
 
 h1 {
@@ -92,4 +96,29 @@ footer {
 
 footer p {
     margin: 0px; 
+}
+
+@media only screen and (min-width: 768px) {
+    .dropdown {
+        display: none;
+    }
+
+    header {
+        align-items: center;
+    }
+
+    .navbar {
+        display: flex; 
+        justify-content: flex-end; 
+        flex: 1; 
+    }
+
+    .navbar p {
+        padding-left: 20px; 
+    }
+
+    .navbar a {
+        color: rgb(232, 232, 232);
+    }
+
 }
