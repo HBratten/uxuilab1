@@ -31,12 +31,14 @@ a {
   display: none;
   position: absolute;
   right: 0px;
-  top: 39px;
+  top: 37px;
   background-color: rgb(232, 232, 232);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgb(232, 232, 232);
+  border: 2px solid rgb(76, 137, 178);
   padding: 12px 16px;
   z-index: 1;
+  padding-top: 0px;
+  padding-bottom: 0px; ß
 }
 
 .dropdown:hover .dropdown-content {
@@ -47,4 +49,18 @@ h1 {
   font-size: 20px;
   text-align: center;
   z-index: 2;
+  margin-top: 50px;
+}
+
+.submit {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(76, 137, 178);
+  color: rgb(232, 232, 232);
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 16px;
 }
